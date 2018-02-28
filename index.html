@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="main.scss">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-3 text-center">
+                <button type="button" class="btn btn-outline-primary animated bounceInLeft" id="newQuote"> 
+                  <i class="fa fa-refresh fa-lg fanew" aria-hidden="true"></i>
+          New Quote
+                </button>
+              </div>
+              <div class="col-sm-6 animated fadeInDownBig" id="theQuote">
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                <span class="text-justify align-middle" id ="quote">Quote NOT working
+                </span>
+                      <i class="fa fa-quote-right" aria-hidden="true"></i> 
+                <br><br>
+                <p class="text-right align-middle" id="author">Author NOT working</p>
+              </div>
+              <div class="col-sm-3 text-center">
+                <a data-via="diegoalejojo" id="link">
+                <button type="button" class="btn btn-outline-info animated bounceInRight" id="tweetQuote">
+                  <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+                Tweet my quote
+                  </button>
+                </a>
+              </div>
+            </div>  
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
